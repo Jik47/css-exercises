@@ -19,6 +19,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /*  */
+  padding: 5px 10px;
+
 }
 
 input {
@@ -57,7 +60,17 @@ ul {
   padding: 0;
 }
 
-/* push the footer to the end */
+
 .content {
-  flex: 1;
+  /* push the footer to the end */
+  flex: 1 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+/* .buttons {
+  display: flex;
+  justify-content: center;
+} */
