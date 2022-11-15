@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* my code */
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -47,4 +50,9 @@ ul {
   display: flex;
   gap: 16px;
   padding: 0;
+}
+
+/* push the footer to the end */
+.content {
+  flex: 1;
 }
